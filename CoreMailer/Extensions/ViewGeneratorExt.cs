@@ -25,7 +25,7 @@ namespace CoreMailer.Extensions
                     content.Append(lineStr);
                 }
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 throw;
             }
@@ -56,7 +56,7 @@ namespace CoreMailer.Extensions
                     content.Append(lineStr);
                 }
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 throw;
             }
@@ -84,7 +84,7 @@ namespace CoreMailer.Extensions
                 content.Append(_message);
 
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 throw;
             }

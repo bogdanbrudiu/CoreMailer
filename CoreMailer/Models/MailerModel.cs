@@ -18,6 +18,7 @@ namespace CoreMailer.Models
         public string User { get; set; }
         [Required(ErrorMessage = "Key / password for host user is Required")]
         public string Key { get; set; }
+        public bool EnableSsl { get; set; }
         public bool IsHtml { get; set; }
         [Required(ErrorMessage = "Sender email address is required")]
         [EmailAddress(ErrorMessage = "Please enter valid sender email")]
@@ -44,7 +45,7 @@ namespace CoreMailer.Models
         public bool UsePickupDirectory { get; set; }
 
         public string PickupPath { get; set; }
-
+        
         public Object Model { get; set; }
         public MailerModel(string host, int port, string layout = "Shared/_EmailLayout.html")
         {
