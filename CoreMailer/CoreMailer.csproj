@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <Version>3.0.0</Version>
     <Authors>Riyasat</Authors>
     <Company>Riy Technologies AB</Company>
